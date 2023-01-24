@@ -5,7 +5,7 @@
       "default": true
     }
   ],
-  "name": "PersonalAssesment",
+  "name": "personal",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
   "sourceApiVersion": "56.0"
