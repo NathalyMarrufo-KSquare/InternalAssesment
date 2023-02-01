@@ -63,3 +63,8 @@ It will display the current form
 Flow was used to send the email
 ![image](https://user-images.githubusercontent.com/113453096/216135692-28fd6244-0a33-4f75-add3-f3edbf146796.png)
 
+The email was sent in 2 batches for the amount of mails required to the assesment.
+
+![image](https://user-images.githubusercontent.com/113453096/216139178-0dbf50dc-0e6d-4ce6-8faa-b3601cd21004.png)
+
+
