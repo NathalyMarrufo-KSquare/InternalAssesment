@@ -68,3 +68,24 @@ The email was sent in 2 batches for the amount of mails required to the assesmen
 ![image](https://user-images.githubusercontent.com/113453096/216139178-0dbf50dc-0e6d-4ce6-8faa-b3601cd21004.png)
 
 
+
+
+-----------------
+
+Update push to vendor field automated process
+
+When you push to vendor as Yes, the field of the push date in the contacts related will change with the date of today. 
+
+![image](https://user-images.githubusercontent.com/113453096/216164163-132090ba-b186-48a7-9e51-79f868a62be5.png)
+
+
+![image](https://user-images.githubusercontent.com/113453096/216164472-78aacb2c-d2ec-4ab6-bac2-fd120a0156aa.png)
+
+
+updated record >
+
+![image](https://user-images.githubusercontent.com/113453096/216164631-92bcfa3d-dde0-4a86-8d38-b4f14bf1e11b.png)
+
+
+![image](https://user-images.githubusercontent.com/113453096/216164783-cdae3658-7624-403e-b779-ae2d02b60412.png)
+
