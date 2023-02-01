@@ -51,5 +51,8 @@ It will display the current form
 ![image](https://user-images.githubusercontent.com/113453096/215998128-c129366a-e448-40c7-9c2b-a31f173b716c.png)
 
 
- 
+ !!
+ It's possible that you can find the automated email in your spam folder. You can check out in case the email is not in your main inbox.
+ ![image](https://user-images.githubusercontent.com/113453096/216017274-392f3630-b86e-4f05-b1b3-feb4b5ab6ea0.png)
+
 
