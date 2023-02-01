@@ -59,4 +59,7 @@ It will display the current form
 ![image](https://user-images.githubusercontent.com/113453096/215998128-c129366a-e448-40c7-9c2b-a31f173b716c.png)
 
 
+-------------------------------
+Flow was used to send the email
+![image](https://user-images.githubusercontent.com/113453096/216135692-28fd6244-0a33-4f75-add3-f3edbf146796.png)
 
