@@ -1,6 +1,14 @@
 # InternalAssesment
 Repository for the Shadowing assesment of ITK
+----------------------------------------------------------
 
+ !!
+ It's possible that you can find the automated email in your spam folder. You can check out in case the email is not in your main inbox.
+ 
+ 
+ ![image](https://user-images.githubusercontent.com/113453096/216017274-392f3630-b86e-4f05-b1b3-feb4b5ab6ea0.png)
+
+ ---------------------------------------------------------
 As so you can visualize the button to show the contacts related
 
 ![image](https://user-images.githubusercontent.com/113453096/215995003-c2ebc37f-6877-41a2-bafb-9d99ed1454c0.png)
@@ -50,9 +58,5 @@ It will display the current form
 ![image](https://user-images.githubusercontent.com/113453096/215998060-5ac25531-97e4-438e-8c83-bc4a76b8a7c4.png)
 ![image](https://user-images.githubusercontent.com/113453096/215998128-c129366a-e448-40c7-9c2b-a31f173b716c.png)
 
-
- !!
- It's possible that you can find the automated email in your spam folder. You can check out in case the email is not in your main inbox.
- ![image](https://user-images.githubusercontent.com/113453096/216017274-392f3630-b86e-4f05-b1b3-feb4b5ab6ea0.png)
 
 
