@@ -1,6 +1,6 @@
 # InternalAssesment
 Repository for the Shadowing assesment of ITK
-----------------------------------------------------------
+-----------------------------------------------------------
 
  !!
  It's possible that you can find the automated email in your spam folder. You can check out in case the email is not in your main inbox.
