@@ -1,0 +1,82 @@
+<template>
+    <lightning-button variant="brand"
+                        label={activeSearch}
+                        onclick={handleClick}>
+
+    </lightning-button>
+    
+    <template if:true={showContact}>
+    <div class="designTemp">
+        <h1 class="headerTemp">Contact Search</h1>
+
+       
+
+        <lightning-input type="search" class="slds-m-vertical_medium slds-m-horizontal_xx-large"
+                            onchange={handleChanged}
+                            label="Contact Name"
+                            value= {searchKey}></lightning-input>
+        <div class="textalign">
+            <lightning-card title="Contact Search" >
+               
+                
+                <lightning-datatable 
+                    key-field="id"
+                    data={data}
+                    columns={columns}
+                    onrowselection={handleSelectItem}
+                    max-row-selection=1>
+                </lightning-datatable>
+
+
+             <div class="buttonTemp"> 
+                
+    <template if:true={showContactForm}>
+    <lightning-card title="New Contact" class="slds-align_absolute-center">
+            <lightning-record-form
+            object-api-name={objectApiName}
+            fields={fields}
+            onsuccess={handleSuccess}>
+      
+            </lightning-record-form>
+         </lightning-card>  
+    </template>
+         <lightning-button class="slds-m-around_medium" variant="brand"
+                        label={activeForm}
+                        onclick={handleContactForm}
+                        >
+    </lightning-button> 
+        </div>           
+            </lightning-card> 
+                  
+            <template if:true={showDetailsCard}> 
+             <lightning-card title="Contact Details" class="slds-m-horizontal_x-large slds-align_absolute-center">
+                <div class="slds-m-around_large">
+
+                    <p><img src={pictureContactSelected} alt="" style="height: 190px; width: 200px; border-radius: 50%;object-fit: cover;"></p>
+                    <p >{nameContactSelected}</p>
+                    <p >{emailContactSelected}</p>
+                    <p>{phoneContactSelected}</p>
+                </div>
+                </lightning-card>   
+                </template>
+
+            <!-- <lightning-card title="List of Contacts" >
+                <template for:each={reContacts} for:item="account" for:index="index" >
+                    
+                    <p  onclick={handleClick}
+                         data-account-id={account.Id} 
+                         key={account.Id}
+                         class="  slds-m-horizontal_large desing">
+                         <a  style="margin-left: 15px;margin-right: 15px;" class="format">{account.Name}</a> 
+                         <a  style="color:black;margin-left: 15px;">{account.Email}</a>
+                         <a  style="color:black;margin-left: 15px;">{account.Phone}</a> 
+                    </p>
+                   
+        
+                </template>
+            </lightning-card> -->
+           
+        </div>
+    </div>
+</template>
+</template>

@@ -1,0 +1,23 @@
+.designTemp{
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    width: 1200px;
+}
+.headerTemp{
+    color: black;
+    font-size: 26px;
+    font-weight: 300;
+}
+.textalign{
+   display: flex;
+}
+
+
+.format{
+    width: 50px;
+}
+
+.buttonTemp{
+    display: flex;
+    justify-content: end;
+}
