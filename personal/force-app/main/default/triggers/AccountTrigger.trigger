@@ -1,5 +1,8 @@
 trigger AccountTrigger on Account (after update) {
 
+    
+    //Database.executeBatch(new batchClass(),200);
+
     if (Trigger.isAfter && Trigger.isUpdate) {
         Set<Id> accountIdUpdated = new Set<Id>();
         for (Account accountNewRecord : Trigger.New) {
@@ -19,7 +22,7 @@ trigger AccountTrigger on Account (after update) {
             List<Contact> accountContacts = accous.Contacts;
             
             for (Contact con: accountContacts) {
-                con.Push_Date__c=system.today();
+                con.Push_Date__c = System.now();
                 contactsToUpdate.add(con);
             }
         }

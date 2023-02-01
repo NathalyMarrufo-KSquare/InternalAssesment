@@ -36,7 +36,7 @@ export default class ContactComponent extends LightningElement {
             this.showContact = false; 
             this.showDetailsCard = false;
             this.showContactForm = false;
-            this.activeForm= 'Close';
+            this.activeForm= 'New Contact';
             
         }
     }
